@@ -1,3 +1,29 @@
 body{
-    background-color: rgb(243, 183, 238);
+    background-color: rgb(183, 196, 243);
+}
+h1, h2, h3{
+    color:rgb(46, 46, 94);
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(197, 237, 204);
+    }
+img{
+    width: 400px;
+    height: 400px;
+}
+a{
+    color: rgb(191, 50, 66);
+    background: #fff;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+audio{
+    background: rgb(19, 243, 94);
+   
+}
+div * p {
+    color: red;
+    text-align:center;
 }
