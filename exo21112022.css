@@ -1,6 +1,6 @@
 div * p {
     color: red;
-    text-align:center;
+    text-align: center;
 }
 = les contenus des balises p qui sont elles mêmes dans n'importe quelles balises (= qui doivent l'être)
 qui sont elles mêmes dans des balises div s'afficheront en rouge. P doit être dans une balise X avant d'être dans une balise div.
@@ -8,3 +8,10 @@ qui sont elles mêmes dans des balises div s'afficheront en rouge. P doit être 
 div * li {
     color: green;
 }
+.menu li .sel {
+    font-size : 24pt;
+    color: purple;
+    }
+h1 + h2 { margin-top: -5mm }
+h1.opener + h2 { margin-top: -20mm }
+h2 + p { margin-top:0.8em }
