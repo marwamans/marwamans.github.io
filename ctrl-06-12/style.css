@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Users/marwamansour/marwamans.github.io/ctrl-06-12/cement.jpg");
+    background-image: url("../ctrl-06-12/cement.jpg");
 }
 
 h1{
@@ -30,6 +30,10 @@ div p{
 
 span {
     color: yellow;
+}
+
+span:hover{
+    background-color: transparent;
 }
 
 ol {
@@ -77,4 +81,11 @@ nav:hover{
     border-radius: 50px;
     text-transform: uppercase;
 } 
+
+h2:hover{
+    background-color: #c0c5c8;
+    padding: 5px 21px;
+    height: 30px;
+    border-radius: 50px;
+}
 
