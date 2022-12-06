@@ -1,0 +1,80 @@
+body{
+    background-image: url("/Users/marwamansour/marwamans.github.io/ctrl-06-12/cement.jpg");
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color : blue;
+    background-color : grey;
+    padding: 5px 21px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 16px;
+    color : seashell;
+}
+
+.surligne{
+    background-color: seashell;
+}
+
+div p{
+    color : slateblue;
+}
+
+span {
+    color: yellow;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+li ol{
+    list-style: upper-latin;
+}
+
+li ol li ol{
+    list-style: lower-roman;
+}
+
+ul {
+    list-style : upper-roman;
+}
+
+li ol ul{
+    list-style: upper-latin;
+}
+
+ul li ol li ol li ol li{
+    list-style-type: circle;
+}
+
+a{
+    font-weight: bold;
+    padding: 5px 21px;
+    font-size: 2em;
+}
+
+nav{
+    background-color: seashell;
+    border-radius: 50px;
+    transition: 0.3s ease 0s;
+    padding: 5px 21px;
+    height: 42px;
+}
+
+nav:hover{
+    background-color: #92d1fb;
+    padding: 5px 21px;
+    height: 42px;
+    border-radius: 50px;
+    text-transform: uppercase;
+} 
+
