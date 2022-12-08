@@ -1,0 +1,66 @@
+<!DOCTYPE html>    
+<html lang="fr">
+  <head>
+    <title>Groupe 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+<h1>Statut :</h1>
+        <div>
+            <p>Etes-vous étudiant ou salarié ?</p>
+            <input type="radio" id="oui">
+            <label>Salarié</label>
+        </div>
+        <div><input type="radio" id="non" >
+            <label>Etudiant</label></div>
+        <div>
+            <input type="radio" id="ne-sait-pas">
+            <label>Ne sait pas</label>
+        </div>
+
+<br><br>
+<h2>Fréquence :</h2>
+<div>
+    <p>Souhaitez-vous bénéficier de la prestation dès maintenant ?</p>
+    <input type="checkbox" id="ok">
+    <label>Oui</label>
+</div>
+<div><input type="checkbox" id="pas-ok" >
+    <label>Non</label>
+</div>
+<br><br>
+<h3>Communications :</h3>
+<div>
+    <p>Souhaitez-vous être recontacté ?</p>
+    <label>Votre réponse:</label>
+    <select name="choix" id="choix-select">
+        <option>--Choisissez une option--</option>
+        <option value="oui">Oui</option>
+        <option value="non">Non</option>
+    </select>
+</div>
+
+<br><br>
+<label>Votre pseudo (4 à 8 caractères):</label>
+
+<input type="text" id="pseudo" name="pseudo" required
+       minlength="10" maxlength="20" size="35">
+<br>
+<br>
+<div><label>Commentaires :</label>
+    <textarea id="comment" name="comment" required></textarea></div>
+<br>
+<br>
+<div>
+    <button class="privacy"
+        type="button" onclick="window.location.
+        href ='https://fr.wikipedia.org/wiki/Politique_de_confidentialit%C3%A9#:~:text=Une%20politique%20de%20confidentialit%C3%A9%20est,donn%C3%A9es%20transmises%20par%20ses%20clients.;'">
+    Lire et accepter la politique de confidentialité
+</button>
+</div>
+<br>
+<input type="submit" value="Envoyer le formulaire">
+
+    </body>
+</html>
