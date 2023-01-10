@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Demande d'exercice de droits</title>
+  <style>
+    body{background-color: rgb(207, 233, 242); font-family: helvetica}
+  </style>
+<link rel="stylesheet" type="text/css" href="mainPDF.css" media="print">
+</head>
+
+  <body>
+    <form action="/page-traitement-donnees" method="post">
+
+        <h1>Votre demande d'exercice de droits - Veuillez remplir les champs suivants :</h1>
+<div id="envoyeur">
+    <p><strong>Coordonnées de l'envoyeur :</strong></p>
+    <div class="coordonnees">
+        <input type="radio" >
+        <label>Madame</label>
+        <br>
+        <input type="radio">
+        <label>Monsieur</label>
+        <br>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" class="content">
+        <br>
+        <label for="name">Prénom :</label>
+        <input type="text" id="name" class="content">
+        <br>
+        <label for="email">Adresse mail :</label>
+        <input type="text" id="email" class="content">
+        <br>
+        <label for="phone">Numéro de téléphone :</label>
+        <input type="text" id="phone" class="content">
+        <br>
+        <label for="adress">Adresse postale :</label>
+        <textarea id="adress" class="content"></textarea>
+    </div>
+<div id="destinataire">
+    <p><strong>Coordonnées du destinataire :</strong></p>
+    <div class="coordonnees">
+        <input type="radio" class="civilite">
+        <label>Madame</label>
+        <br>
+        <input type="radio" class="civilite">
+        <label>Monsieur</label>
+        <br>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" class="content" >
+        <br>
+        <label for="name">Prénom :</label>
+        <input type="text" id="name" class="content">
+        <br>
+        <label for="email">Adresse mail :</label>
+        <input type="text" id="email" class="content">
+        <br>
+        <label for="phone">Numéro de téléphone :</label>
+        <input type="text" id="phone" class="content">
+        <br>
+        <label for="adress">Adresse postale :</label>
+        <textarea id="adress" class="content"></textarea>
+    </div>
+</div>
+<h2>Lettre :</h2>
+<div id="date">
+    <label for="start">Date :</label>
+    <input type="date" id="start" name="trip-start"
+       value="10-01-2023"
+       min="10-01-2022" max="10-01-2023" class="content">
+</div>
+<div id="objet">
+    <p>Objet : <textarea id="objet" class="content"></textarea></p>
+</div>
+<div id="lieu">
+    <label for="lieu">Lieu :</label>
+            <input type="text" id="lieu" class="content">
+</div>
+<br>
+<div>
+<input type="radio" class="civilite">
+    <label>Monsieur</label>
+    <input type="text" class=content placeholder="Indiquez le nom du responsable de formation" style="width: 371px; height: 12px;">,
+</div>
+<div>
+<input type="radio" class="civilite">
+    <label>Madame</label>
+    <input type="text" class="content" placeholder="Indiquez le nom du responsable de formation" style="width: 371px; height: 12px;">,
+</div>
+<div>
+    <p align="justify" class="newpage">Actuellement étudiant en <select name="choix" id="choix-select">
+        <option class="content">--Sélectionnez votre formation--</option>
+        <option>Master Droit du numérique</option>
+        <option>Master Droit privé</option>
+        <option>Master Droit public</option>
+    </select>, je souhaiterais exercer mon droit d’accès et d’information
+    correspondant aux traitements de mes données dans le cadre de ma candidature au sein de votre Master, via ecandidat, et plus précisément sur :</p>
+</div>
+<div class="topics">
+    <input type="checkbox">
+        <label>Les critères de sélection</label>
+    <br>
+    <input type="checkbox" >
+        <label>Le contenu du traitement algorithmique (code source) comme précisé dans la brochure du Master</label>
+    <br>
+        <input type="checkbox" >
+        <label>Le degré et le mode de contribution du traitement algorithmique à la prise de décision de sélection</label>
+    <br>
+        <input type="checkbox" >
+        <label>Les critères retenus par cet algorithme pour trier les candidats</label>
+</div>
+<div>
+<p>Il est entendu par « algorithme » :
+<ul>
+    <li>Tout outil ou procédé qui automatiserait partiellement ou totalement la procédure de sélection ;</li>
+    <li>Toute suite ambiguë d’instructions et d’opérations calculatoires permettant de résoudre une classe de problèmes,
+        - ici, la sélection. (ex : algorithme Parcoursup disponible via GitHub).</li>
+</ul></p>
+</div>
+
+<p align="justify">Je souhaiterais obtenir une copie, en langage clair, de l’ensemble de ces données
+    (y compris celles figurant dans les zones « blocs-notes » ou « commentaires »),
+    en application de l’article 15 du Règlement général sur la protection des données (RGPD) et
+    de l’article R311-3-1-2 du Code des relations entre le public et l’administration.
+</p>
+<p align="justify">Je vous remercie de me faire parvenir votre réponse dans les meilleurs délais et au plus tard
+    dans un délai d’un mois à compter de la réception de ma demande (article 12.3 du RGPD).
+    A défaut de réponse de votre part dans les délais impartis ou en cas de réponse incomplète,
+    je me réserve la possibilité de saisir la Commission nationale de l’informatique et des libertés (CNIL)
+    d’une réclamation ainsi que la Commission d'accès aux documents administratifs.
+    A toutes fins utiles, vous trouverez des informations sur le site internet de la
+    CNIL : https://www.cnil.fr/fr/professionnels-comment-repondre-une-demande-de-droit-dacces ;
+    ainsi que sur celui de la CADA : https://www.cada.fr/administration/la-communication-des-documents-administratifs.
+</p>
+<p align="justify" class="newpage">
+    Dans le cadre de la sélection à l’Université  via des algorithmes locaux, le candidat est autorisé à avoir accès aux critères de sélection et à la copie du code source de l’algorithme conformément à :
+
+    <ol align="justify">
+        <li>L’article 15 de la Déclaration des Droits de l’Homme et du Citoyen de 1789 de valeur constitutionnelle : “La Société a le droit de demander compte à tout Agent public de son administration”</li>
+        <li>L’article R.311-13 du Code des relations entre le public et l’administration : “Le délai au terme duquel intervient la décision mentionnée à l'article R. * 311-12 est d'un mois à compter de la réception de la demande par l'administration compétente.”</li>
+        <li>L’article 48 de la Loi 78-17 relative à l’informatique, aux fichiers et aux libertés : “Le droit à l'information s'exerce dans les conditions prévues aux articles 12 à 14 du règlement (UE) 2016/679 du 27 avril 2016.”</li>
+        <li>L’article 12.1 du Règlement (UE) 2016/.</li>
+    </ol>
+</p>
+
+
+<div class="politesse">
+<p>Je vous prie d'agréer, <select name="choix" id="choix-select">
+    <option class="content">--Civilité du destinataire--</option>
+    <option>Madame</option>
+    <option>Monsieur</option></select>, l'expression de mes sincères saluations.</p>
+</div>
+
+<div id="privacy">
+    <button class="privacy"
+        type="button" onclick="window.location.
+        href ='https://fr.wikipedia.org/wiki/Politique_de_confidentialit%C3%A9#:~:text=Une%20politique%20de%20confidentialit%C3%A9%20est,donn%C3%A9es%20transmises%20par%20ses%20clients.;'">
+    Lire et accepter la politique de confidentialité
+</button>
+</div>
+
+<div>
+    <button type="submit">Envoyer</button>
+</div>
+</form>
+  </body>
+  </html>

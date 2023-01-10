@@ -1,0 +1,46 @@
+body { /* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+    background-color : none;
+    font-family : "helvetica" ;
+    font-size : 15pt ;
+    margin : 0 ;
+    border : none;
+    margin: 1em;
+}
+  
+h1#top { /* Affichage du titre */
+    margin : 0 ;
+    padding : 0 ;
+    text-indent : 0 ;
+    line-height : 25pt ;
+    font-size : 25pt ; }
+  
+h1, h2, h3 { /* Modification de la couleur des titres */
+    color : rgb(36, 35, 38);}
+
+.newpage { /* Saut de page pour ne pas couper le texte */
+        page-break-before: always;
+    }
+
+textarea{ /* Saut de page pour ne pas couper le texte */
+    display: inline-block;
+    font-size: small;
+    margin-left: 5px;
+    width: 5%;
+    min-width: 60px;
+}
+
+.content{ /* Suppression des bordures */
+    border : none;
+}
+
+input [type="checkbox" "radio"]{
+    display: none;
+}
+
+input[type="checkbox" "radio"]:not(:checked) + label{
+    display: none;
+} 
+
+input[type="checkbox" "radio"]:checked + label::before {
+    content: "- ";
+}
